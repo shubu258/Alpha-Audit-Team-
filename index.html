@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Audits - Elite Web3 Security & Protocol Audits</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy-dark': '#0a0e27',
+                        'navy-medium': '#0f1530',
+                        'navy-light': '#1a2545',
+                        'lime': '#c4ff61',
+                        'lime-dark': '#a8e050',
+                        'blue-border': '#2a3555',
+                        'text-muted': '#b0b8d4',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(to bottom, #c4ff61, #a8e050);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .shield-icon {
+            width: 20px;
+            height: 22px;
+            border: 2px solid #c4ff61;
+            border-radius: 0 0 10px 10px;
+            border-top: none;
+        }
+        
+        .cta-shield {
+            width: 45px;
+            height: 50px;
+            border: 3px solid #c4ff61;
+            border-radius: 0 0 22px 22px;
+            border-top: none;
+        }
+    </style>
+</head>
+<body class="bg-navy-dark text-white">
+    <!-- Navigation -->
+    <nav class="flex justify-between items-center px-16 py-6">
+        <div class="flex items-center gap-3 text-2xl font-bold">
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+                <img src="20251014_163000.png" alt="Alpha Audits" class="w-full h-full object-cover">
+            </div>
+            Alpha Audits
+        </div>
+        <ul class="flex gap-10 items-center">
+            <li><a href="#services" class="hover:text-lime transition-colors">Services</a></li>
+            <li><a href="#process" class="hover:text-lime transition-colors">Process</a></li>
+            <li><a href="#team" class="hover:text-lime transition-colors">Team</a></li>
+            <li><a href="#contact" class="bg-lime text-navy-dark px-7 py-3 rounded-lg font-semibold hover:bg-lime-dark transition-all hover:-translate-y-0.5">Request Audit</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center px-8 py-24 max-w-6xl mx-auto">
+        <div class="inline-block px-6 py-2 border-2 border-teal-900 rounded-full text-lime text-sm mb-8 bg-teal-900 bg-opacity-20">
+            Elite Web3 Security & Protocol Audits
+        </div>
+        <h1 class="text-7xl font-extrabold leading-tight mb-6 gradient-text">
+            Secure Your Protocol<br>With Alpha Audits
+        </h1>
+        <p class="text-xl text-text-muted mb-12 max-w-4xl mx-auto">
+            Trusted by leading Web3 projects. Our elite security researchers identify vulnerabilities before they become exploits.
+        </p>
+        <div class="flex gap-6 justify-center mb-16">
+            <a href="http://t.me/shubu2580" class="bg-lime text-navy-dark px-7 py-3 rounded-lg font-semibold hover:bg-lime-dark transition-all hover:-translate-y-0.5">
+                Request Audit ->
+            </a>
+            <a href="http://t.me/shubu2580" class="bg-transparent border-2 border-blue-border px-7 py-3 rounded-lg font-semibold hover:border-lime hover:text-lime transition-all">
+                Analyse Protocol 
+            </a>
+        </div>
+        <div class="inline-block bg-gradient-to-br from-blue-900 to-navy-medium border-2 border-teal-700 rounded-xl px-12 py-8 mt-8">
+            <div class="text-6xl font-extrabold text-lime mb-2">$500K+</div>
+            <div class="text-text-muted text-lg">Total Value Secured</div>
+        </div>
+    </section>
+
+    <!-- Trusted Logos Section -->
+    <section class="px-8 py-12 max-w-6xl mx-auto">
+        <div class="bg-gradient-to-r from-white/5 via-white/3 to-transparent rounded-2xl p-8 shadow-xl backdrop-blur-sm border border-white/5">
+            <h3 class="text-center text-2xl md:text-3xl font-semibold text-slate-200 mb-6">Trusted by the Top Emerging Names in Web3</h3>
+            <div class="flex items-center justify-center gap-8 md:gap-20 lg:gap-32 w-full">
+                <div class="w-1/3 flex justify-center">
+                    <!-- Replace href="#" with the real URL for Manifest Finance (e.g. https://manifest.finance) -->
+                    <a href="https://www.manifestfinancial.com/" data-url="https://www.manifestfinancial.com/" target="_blank" rel="noopener noreferrer" class="inline-block hover:opacity-90">
+                        <img src="667c80a56e36ac8a20be0785_manifest-logo-black@2x.webp" alt="Manifest Finance" class="h-20 md:h-28 lg:h-36 object-contain">
+                    </a>
+                </div>
+                <div class="w-1/3 flex justify-center">
+                    <!-- Replace href="#" with the real URL for Raze (e.g. https://raze.example) -->
+                    <a href="https://www.raze.finance/" data-url="https://www.raze.finance/" target="_blank" rel="noopener noreferrer" class="inline-block hover:opacity-90">
+                        <img src="687e89dfaf400b89fdc40608_Raze-Logo-FINAL_Blue-v2.png" alt="Raze" class="h-20 md:h-28 lg:h-36 object-contain">
+                    </a>
+                </div>
+                <div class="w-1/3 flex justify-center">
+                    <!-- Replace href="#" with the real URL for Soneium (e.g. https://soneium.example) -->
+                    <a href="https://www.recurx.xyz/" data-url="https://www.recurx.xyz/" target="_blank" rel="noopener noreferrer" class="inline-block hover:opacity-90">
+                        <img src="{8EBC4C52-2BA0-416E-AE13-14DFFD03D12D}.png" alt="Soneium" class="h-20 md:h-28 lg:h-36 object-contain rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="px-8 py-24 max-w-6xl mx-auto" id="services">
+        <h2 class="text-6xl font-extrabold text-center mb-4 text-lime">Our Services</h2>
+        <p class="text-center text-text-muted text-xl mb-16">
+            Comprehensive security solutions for every stage of your Web3 journey
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+           <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-2xl p-10 hover:border-lime transition-all hover:-translate-y-2">
+                <div class="  to-teal-900 rounded-xl flex items-center justify-center text-3xl mb-6">
+                    🛡️
+                </div>
+                <h3 class="text-3xl font-bold mb-4">Smart Contract Audits</h3>
+                <p class="text-text-muted leading-relaxed">
+                    Comprehensive security analysis of your smart contracts, identifying vulnerabilities before deployment.
+                </p>
+            </div>
+            <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-2xl p-10 hover:border-lime transition-all hover:-translate-y-2">
+                <div class=" to-teal-900 rounded-xl flex items-center justify-center text-3xl mb-6">
+                    🔒
+                </div>
+                <h3 class="text-3xl font-bold mb-4">Full Stack Audit</h3>
+                <p class="text-text-muted leading-relaxed">
+                    End-to-end full-stack security assessment covering smart contracts, backend services, integrations, and deployment pipelines.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+   <!-- Process Section -->
+    <section class="px-8 py-24 max-w-7xl mx-auto relative" id="process">
+        <h2 class="text-6xl font-extrabold text-center mb-4 text-lime">Our Audit Process</h2>
+        <p class="text-center text-text-muted text-xl mb-12">
+            A systematic approach to comprehensive security assessment
+        </p>
+        
+        <div class="relative mt-20">
+            <!-- Vertical Timeline Line -->
+            <div class="absolute left-0 md:left-1/2 top-0 bottom-0 w-1.5 bg-gradient-to-b from-lime to-lime-dark transform -translate-x-1/2 hidden md:block shadow-md"></div>
+            
+            <!-- Timeline markers are attached to each step below (one marker per step) -->
+            
+            <div class="space-y-32">
+                <!-- Step 1 - Left Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2 md:pr-16 md:text-right">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 justify-end mb-6">
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    🛡️
+                                </div>
+                                <span class="text-7xl font-extrabold text-lime">01</span>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Onboarding & Scoping</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Define audit scope, timeline, and objectives with detailed documentation review
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform translate-x-3 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2"></div>
+                </div>
+
+                <!-- Step 2 - Right Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2"></div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform -translate-x-8 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-16">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 mb-6">
+                                <span class="text-7xl font-extrabold text-lime">02</span>
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    🔍
+                                </div>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Static tool Analysis</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Automated tools detect common vulnerabilities and code quality issues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Step 3 - Left Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2 md:pr-16 md:text-right">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 justify-end mb-6">
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    ⚙️
+                                </div>
+                                <span class="text-7xl font-extrabold text-lime">03</span>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 "> AI Analysis</h3>
+                            <p class="text-text-muted leading-relaxed">
+                            AI-powered analysis to identify patterns, logic flaws, and potential security risks.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform translate-x-3 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2"></div>
+                </div>
+
+                <!-- Step 4 - Right Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2"></div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform -translate-x-8 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-16">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 mb-6">
+                                <span class="text-7xl font-extrabold text-lime">04</span>
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    🤖
+                                </div>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Manual Review</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Elite security researchers perform comprehensive line-by-line code review, identifying critical vulnerabilities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 5 - Left Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2 md:pr-16 md:text-right">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 justify-end mb-6">
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    ⚠️
+                                </div>
+                                <span class="text-7xl font-extrabold text-lime">05</span>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Testing & Fuzz Testing</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Rigorous unit, integration, and automated fuzz testing to validate security
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform translate-x-3 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2"></div>
+                </div>
+
+                <!-- Step 6 - Right Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2"></div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform -translate-x-8 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-16">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 mb-6">
+                                <span class="text-7xl font-extrabold text-lime">06</span>
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    🏆
+                                </div>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Final Report & Remediation</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Comprehensive audit report with severity ratings, detailed findings, and remediation guidance
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 7 - Left Side -->
+                <div class="relative flex flex-col md:flex-row items-center md:items-start gap-8">
+                    <div class="w-full md:w-1/2 md:pr-16 md:text-right">
+                        <div class="bg-gradient-to-br from-navy-light to-navy-medium border-2 border-blue-border rounded-3xl p-10 hover:border-lime transition-all hover:scale-105 cursor-pointer">
+                            <div class="flex items-center gap-4 justify-end mb-6">
+                                <div class="w-12 h-12 flex items-center justify-center text-2xl">
+                                    🔄
+                                </div>
+                                <span class="text-7xl font-extrabold text-lime">07</span>
+                            </div>
+                            <h3 class="text-3xl font-bold mb-4 ">Reevaluation of Issues</h3>
+                            <p class="text-text-muted leading-relaxed">
+                                Follow-up review to verify fixes and ensure all identified issues have been properly addressed
+                            </p>
+                        </div>
+                    </div>
+                    <div class="hidden md:block w-12 h-12 relative z-10">
+                        <div class="absolute top-20 left-1/2 transform translate-x-3 w-5 h-5 rounded-full bg-gradient-to-br from-lime to-teal-600 shadow-sm"></div>
+                    </div>
+                    <div class="w-full md:w-1/2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Section -->
+    <section class="text-center px-8 py-24 max-w-6xl mx-auto" id="contact">
+        <div class="w-20 h-20 mx-auto mb-8 border-3 border-lime rounded-2xl flex items-center justify-center overflow-hidden">
+            <img src="20251014_163000.png" alt="Alpha Audits" class="w-full h-full object-cover">
+        </div>
+        <h2 class="text-6xl font-extrabold mb-6 text-lime">Ready to Secure Your Protocol?</h2>
+        <p class="text-text-muted text-xl mb-10">
+            Join 150+ projects that trust Alpha Audits with their security
+        </p>
+        <a href="http://t.me/shubu2580" class="inline-block bg-lime text-navy-dark px-7 py-3 rounded-lg font-semibold hover:bg-lime-dark transition-all hover:-translate-y-0.5">
+            Request an Audit →
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#070b1e] px-16 pt-16 pb-8 border-t border-navy-light">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                    <div class="w-8 h-8 border-2 border-lime rounded-lg flex items-center justify-center overflow-hidden">
+                        <img src="20251014_163000.png" alt="Alpha Audits" class="w-full h-full object-cover">
+                    </div>
+                    Alpha Audits
+                </h3>
+                <p class="text-slate-500 text-sm">Elite Web3 Security & Protocol Audits</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-6">Services</h4>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">Smart Contract Audits</a></li>
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">Full Stack Audit</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-6">Company</h4>
+                <ul class="space-y-3">
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">About Us</a></li>
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">Our Team</a></li>
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">Case Studies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-6">Connect</h4>
+                <ul class="space-y-3">
+                    <li><a href="https://x.com/alphauditss" class="text-slate-500 hover:text-lime transition-colors">Twitter</a></li>
+                    <li><a href="#" class="text-slate-500 hover:text-lime transition-colors">GitHub</a></li>
+                    <li><a href="https://t.me/+NcI75KnhUHwwZTM1" class="text-slate-500 hover:text-lime transition-colors">Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center pt-8 border-t border-navy-light text-slate-500 text-sm">
+            <p>© 2025 Alpha Audits. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-6 right-6 bg-white text-navy-dark px-6 py-3 rounded-full font-semibold text-sm shadow-lg">
+        Made in Bolt
+    </div>
+</body>
+</html>
