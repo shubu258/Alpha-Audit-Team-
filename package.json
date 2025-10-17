@@ -1,0 +1,11 @@
+{
+  "name": "alpha-audits",
+  "version": "1.0.0",
+  "description": "Alpha Audits Landing Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
